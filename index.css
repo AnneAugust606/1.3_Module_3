@@ -19,7 +19,7 @@ h1 {
     font-size: 3rem;
     color: #3d0109;
 }
-nav {
+nav.top {
     display: flex;
     justify-content: space-around;
     
@@ -34,6 +34,22 @@ nav a {
     font-size: 1.5rem;
 }
 nav a:hover {
+    transition: 0.2s;
+    background-color: #ff7f51;
+    color: #4f000b;
+    text-decoration: underline;
+}
+.navAddOn {
+    padding: 0.5% 3%;
+    background-color: #720026;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Square Peg', cursive;
+    font-size: 1.5rem;
+}
+.navAddOn:hover {
+    transition: 0.2s;
     background-color: #ff7f51;
     color: #4f000b;
     text-decoration: underline;
@@ -44,17 +60,60 @@ nav a:hover {
 }
 .left{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     max-width: 30%;
 }
 .right {
-    display: flex;
-    justify-content: flex-start;
-    padding-top: 5%;
+    max-width: 40%;
+    padding-top: 2%;
+    font-family: 'Square Peg', cursive;
+    font-size: 2rem;
+    text-align: center;
 }
 
 .aboutPic {
-    width: 80%;
+    padding-top: 5%;
     border-radius: 50%;
-    padding-right: 10px;
+    padding-right: 30px;
+}
+span {
+    font-weight: bold;
+}
+.projects {
+    width: 90%;
+    margin: 5%;
+    background-color: #fab55b;
+    padding: 20px 0;
+    border-radius: 30px;
+}
+.upper, .lower {
+    display: flex;
+    padding: 2% 0;
+}
+.hold {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.hold a {
+    font-size: 1.3rem;
+    width: 100%;
+    text-align: center;
+    color: #4f000b;
+    text-decoration: none;
+}
+.hold a:hover {
+   color: white; 
+   text-decoration: underline;
+}
+.placeholder {
+    width: 40%;
+}
+footer {
+    text-align: center;
+}
+h3 {
+    font-family: 'Bitter', serif;
+    font-size: 2.5rem;
+    color: #3d0109;
 }
