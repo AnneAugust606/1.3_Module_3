@@ -90,6 +90,9 @@ span {
     display: flex;
     padding: 2% 0;
 }
+.home {
+    padding: 0 3%;
+}
 .hold {
     display: flex;
     justify-content: center;
@@ -102,13 +105,23 @@ span {
     color: #4f000b;
     text-decoration: none;
 }
+.hold h2 {
+    font-size: 1.5rem;
+    width: 100%;
+    text-align: center;
+    color: #4f000b;
+}
 .hold a:hover {
    color: white; 
    text-decoration: underline;
 }
 
 footer {
+    margin: 0 10%;
     text-align: center;
+    background-color: #ce4257;
+    padding: 1%;
+    border-radius: 30px;
 }
 h3 {
     font-family: 'Bitter', serif;
@@ -142,4 +155,32 @@ h3 {
 }
 .text p {
     font-size: 2rem;
+}
+.proj {
+    padding: 5%;
+    text-align: center;
+}
+.onPage {
+    width: 60%;
+}
+.proj p {
+    padding: 5%;
+    background-color: #fab55b;
+    border-radius: 30px;
+    font-family: 'Bitter', serif;
+    font-size: 1rem;
+    color: #3d0109;
+}
+.ending {
+    text-align: center;
+    font-family: 'Bitter', serif;
+    font-size: 2.3rem;
+    color: #3d0109;
+    padding-bottom: 10%;
+}
+.endButton {
+font-size: 2.5rem;
+}
+.contactFiller {
+    height: 8in;
 }
