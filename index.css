@@ -1,0 +1,60 @@
+*{
+    max-width: 100%;
+    /* font-family: 'Bitter', serif;
+font-family: 'Square Peg', cursive; */
+}
+body {
+    background-color: #ff9b54;
+}
+
+header {
+    background-color: #ce4257;
+    margin-top: -10px;
+    width: 100%;
+    padding-top: 0.3%;
+}
+h1 {
+    text-align: center;
+    font-family: 'Bitter', serif;
+    font-size: 3rem;
+    color: #3d0109;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    
+}
+nav a {
+    padding: 0.5% 3%;
+    background-color: #720026;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Square Peg', cursive;
+    font-size: 1.5rem;
+}
+nav a:hover {
+    background-color: #ff7f51;
+    color: #4f000b;
+    text-decoration: underline;
+}
+.aboutMe {
+    display: flex;
+    justify-content: center;
+}
+.left{
+    display: flex;
+    justify-content: flex-end;
+    max-width: 30%;
+}
+.right {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 5%;
+}
+
+.aboutPic {
+    width: 80%;
+    border-radius: 50%;
+    padding-right: 10px;
+}
