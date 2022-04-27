@@ -19,7 +19,7 @@ h1 {
     font-size: 3rem;
     color: #3d0109;
 }
-nav.top {
+nav {
     display: flex;
     justify-content: space-around;
     
@@ -106,9 +106,7 @@ span {
    color: white; 
    text-decoration: underline;
 }
-.placeholder {
-    width: 40%;
-}
+
 footer {
     text-align: center;
 }
@@ -116,4 +114,32 @@ h3 {
     font-family: 'Bitter', serif;
     font-size: 2.5rem;
     color: #3d0109;
+}
+.one, .two, .three {
+    display: flex;
+    padding: 2%;
+    justify-content: center;
+    font-family: 'Square Peg', cursive;
+}
+.aboutLeft, .aboutRight{
+    display:flex;
+    max-width: 40%;
+}
+.aboutRight {
+    justify-content: flex-start;
+}
+.aboutLeft {
+    max-width: 40%;
+    justify-content: flex-start;
+}
+.two {
+    justify-content: flex-end;
+    padding-right: 10%;
+}
+.text h2 {
+    font-size: 5rem;
+    margin-top: 0;
+}
+.text p {
+    font-size: 2rem;
 }
